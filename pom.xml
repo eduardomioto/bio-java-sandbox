@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.mioto.med.bio</groupId>
-	<artifactId>BioJavaSandbox</artifactId>
+	<artifactId>bio-java-sandbox</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
@@ -15,14 +15,21 @@
 			<artifactId>biojava-core</artifactId>
 			<version>4.2.4</version>
 		</dependency>
+		<!-- 
 		<dependency>
 			<groupId>org.biojava</groupId>
 			<artifactId>biojava-genomics</artifactId>
 			<version>4.2.0</version>
-		</dependency>
+		</dependency> 
+		-->
 		<dependency>
 			<groupId>org.biojava</groupId>
 			<artifactId>biojava-structure</artifactId>
+			<version>4.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.biojava</groupId>
+			<artifactId>biojava-structure-gui</artifactId>
 			<version>4.2.0</version>
 		</dependency>
 	</dependencies>
@@ -72,6 +79,7 @@
 	</build>
 
 
+	<!-- 
 	<repositories>
 		<repository>
 			<id>oss.sonatype.org-snapshot</id>
@@ -84,5 +92,6 @@
 			</snapshots>
 		</repository>
 	</repositories>
+	 -->
 
 </project>
