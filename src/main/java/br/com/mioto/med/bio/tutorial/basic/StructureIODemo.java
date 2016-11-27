@@ -1,4 +1,4 @@
-package br.com.mioto.med.bio;
+package br.com.mioto.med.bio.tutorial.basic;
 
 import org.biojava.nbio.structure.Structure;
 import org.biojava.nbio.structure.StructureIO;

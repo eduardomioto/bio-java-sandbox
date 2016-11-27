@@ -1,6 +1,6 @@
 # bio-java-sandbox
 
 ###### References
-- https://github.com/biojava/biojava-tutorial
-- https://github.com/biojava/biojava
-- http://biojava.org/wikis/BioJava:CookBook4.0/
+- [1] https://github.com/biojava/biojava-tutorial
+- [2] https://github.com/biojava/biojava
+- [3] http://biojava.org/wikis/BioJava:CookBook4.0/

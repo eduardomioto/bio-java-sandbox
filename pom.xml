@@ -7,35 +7,38 @@
 
 	<properties>
 		<jdk.version>1.7</jdk.version>
+		<bio.java>4.2.0</bio.java>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.biojava</groupId>
 			<artifactId>biojava-core</artifactId>
-			<version>4.2.4</version>
+			<version>${bio.java}</version>
 		</dependency>
-		<!-- 
 		<dependency>
 			<groupId>org.biojava</groupId>
-			<artifactId>biojava-genomics</artifactId>
-			<version>4.2.0</version>
-		</dependency> 
-		-->
+			<artifactId>biojava-alignment</artifactId>
+			<version>${bio.java}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.biojava</groupId>
+			<artifactId>biojava-genome</artifactId>
+			<version>${bio.java}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.biojava</groupId>
 			<artifactId>biojava-structure</artifactId>
-			<version>4.2.0</version>
+			<version>${bio.java}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.biojava</groupId>
 			<artifactId>biojava-structure-gui</artifactId>
-			<version>4.2.0</version>
+			<version>${bio.java}</version>
 		</dependency>
 	</dependencies>
 
 	<build>
-		<finalName>s3sync</finalName>
 		<plugins>
 
 			<!-- download source code in Eclipse, best practice -->
@@ -79,19 +82,8 @@
 	</build>
 
 
-	<!-- 
-	<repositories>
-		<repository>
-			<id>oss.sonatype.org-snapshot</id>
-			<url>http://oss.sonatype.org/content/repositories/snapshots</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-	 -->
+	<!-- <repositories> <repository> <id>oss.sonatype.org-snapshot</id> <url>http://oss.sonatype.org/content/repositories/snapshots</url> 
+		<releases> <enabled>false</enabled> </releases> <snapshots> <enabled>true</enabled> 
+		</snapshots> </repository> </repositories> -->
 
 </project>

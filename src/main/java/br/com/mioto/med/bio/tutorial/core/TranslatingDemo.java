@@ -1,4 +1,4 @@
-package br.com.mioto.med.bio;
+package br.com.mioto.med.bio.tutorial.core;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
